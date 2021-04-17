@@ -16,7 +16,7 @@ public class streamTest {
 
         // 두코드의 결과가 같음
         extractStringList(list);
-        extractStringListUsingStream(list);
+        extractStringListWithStream(list);
     }
 
     public static void extractStringList(List<List<String>> list) {
@@ -28,7 +28,7 @@ public class streamTest {
         System.out.println(res);
     }
 
-    public static void extractStringListUsingStream(List<List<String>> list) {
+    public static void extractStringListWithStream(List<List<String>> list) {
         List<String> res = list.subList(2, 4).stream().map(item -> item.get(0)).collect(Collectors.toList());
         System.out.println(res);
     }
