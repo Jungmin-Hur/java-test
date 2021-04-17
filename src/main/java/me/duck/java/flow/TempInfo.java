@@ -1,4 +1,4 @@
-package me.duck.java;
+package me.duck.java.flow;
 
 import java.util.Random;
 
