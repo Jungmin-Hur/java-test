@@ -1,4 +1,4 @@
-package me.duck.java;
+package me.duck.java.test;
 
 public class Test {
 
@@ -6,10 +6,8 @@ public class Test {
 
         int n = 10;
 
-        //q1
         System.out.println(fibo(n));
 
-        //q2
         int val[] = new int[n + 1];
         val[1] = 1;
         val[2] = 1;
@@ -19,17 +17,6 @@ public class Test {
         }
         System.out.println(val[n]);
 
-        //q3
-        //f(1) 1
-        //2 1
-        //3 1
-        //4 1+2==>2
-        //5 2+3==>2
-        //6 3+4==>3
-        //7 4+5==>4
-        //8 5+6==>5
-        //9 6+7==>6
-        //10 7+8==>9
         int val_pre3 = 1;
         int val_pre2 = 1;
         int val_pre1 = 1;

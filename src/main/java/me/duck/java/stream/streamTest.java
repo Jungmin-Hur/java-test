@@ -14,7 +14,7 @@ public class streamTest {
         list.add(Arrays.asList("a4","b4"));
         list.add(Arrays.asList("a5","b5"));
 
-        // 두코드의 결과가 같음
+        // 두 코드의 결과가 같음
         extractStringList(list);
         extractStringListWithStream(list);
     }
