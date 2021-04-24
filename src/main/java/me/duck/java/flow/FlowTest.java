@@ -3,7 +3,6 @@ package me.duck.java.flow;
 import java.util.concurrent.Flow;
 
 /*
-
 java9에서 reactive programming을 제공하는 클래스 java.util.concurrent.Flow를 추가함
 publish(발행) - subscription(구독)을 지원할 수 있는 Flow 클래스는 중첩된 인터페이스 4개를 포함한다.
 - Publisher
