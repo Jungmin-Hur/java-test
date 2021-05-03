@@ -7,6 +7,17 @@ import java.util.stream.Collectors;
 
 public class streamTest {
     public static void main(String args[]) {
+
+        Arrays.stream(new String[]{"c", "python", "java"})
+                .filter(word -> {
+                    System.out.println("Call filter method: " + word);
+                    return word.length() > 3;
+                })
+                .map(word -> {
+                    System.out.println("Call map method: " + word);
+                    return word.substring(0, 3);
+                }).collect(Collectors.toList());
+
         List<List<String>> list = new ArrayList<>();
         list.add(Arrays.asList("a1","b1"));
         list.add(Arrays.asList("a2","b2"));
