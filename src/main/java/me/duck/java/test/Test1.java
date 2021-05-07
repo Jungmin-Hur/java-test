@@ -1,9 +1,7 @@
 package me.duck.java.test;
 
-public class Test {
-
+public class Test1 {
     public static void main(String args[]) {
-
         int n = 10;
 
         System.out.println(fibo(n));
