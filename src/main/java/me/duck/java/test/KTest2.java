@@ -1,6 +1,6 @@
 package me.duck.java.test;
 
-public class Test2 {
+public class KTest2 {
     public static long[] val;
     public static double[] val_um;
 

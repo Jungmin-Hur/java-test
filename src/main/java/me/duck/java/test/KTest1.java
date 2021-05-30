@@ -1,6 +1,6 @@
 package me.duck.java.test;
 
-public class Test1 {
+public class KTest1 {
     public static void main(String args[]) {
         int n = 10;
 
